@@ -95,3 +95,5 @@ export const TodoForm = () => {
     </form>
   )
 }
+
+Completed functionality of adding, deleting, and editing a task
