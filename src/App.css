@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #8758ff;
+  background: #afc910;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@ h1 {
 }
 
 .TodoWrapper {
-  background: #1A1A40;
+  background: #cfde6f;
   margin-top: 5rem;
   padding: 2rem;
   border-radius: 5px;
@@ -39,7 +39,7 @@ h1 {
 .todo-input {
   outline: none;
   background: none;
-  border: 1px solid #8758ff;
+  border: 5px solid #C98610;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -48,7 +48,7 @@ h1 {
 }
 
 .todo-input::placeholder {
-  color: #ffffff4d;
+  color: #f7f9e7;
 }
 
 .todo-btn {
@@ -63,7 +63,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #8758ff;
+  background: #C98610;
   color: #fff;
   padding: 0.75rem 1rem;
   border-radius: 5px;
