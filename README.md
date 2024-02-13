@@ -73,3 +73,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### February 6 2024
 
 Installed all packages.
+
+### February 12 2024
+
+Added all components
+
+### February 13 2024
+
+Tracked the input for task on the 'TodoForm.js' by using useState & onChange:
+
+'import React, <mark>{useState} </mark> from 'react'
+
+export const TodoForm = () => {
+  <mark>const [value, setValue] = useState("")
+  return</mark> (
+    <form className='TodoForm'>
+      <input type='text' className='todo-input' placeholder='Task' <mark>
+      onChange={(e) => console.log(e.target.value)}/>
+      </mark>
+      <button type="submit" className='todo-button'> + Add Task</button>
+    </form>
+  )
+}
